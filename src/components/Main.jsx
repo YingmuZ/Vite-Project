@@ -7,7 +7,7 @@ const Main = () => {
     <div id="main">
       <img
         className="w-full h-screen object-cover object-left scale-x-[1]"
-        src="./public/demo.png"
+        src="./src/assets/demo.png"
         alt=""
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
