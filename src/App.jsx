@@ -4,6 +4,7 @@ import Main from './components/Main'
 import Work from './components/Work'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import bgImg from "./assets/bg.png";
 
 function App() {
   
@@ -11,7 +12,7 @@ function App() {
   return (
     <div>
       <Sidenav />
-      <Main />
+      <Main img={bgImg}/>
       <Work />
       <Projects />
       <Contact />
