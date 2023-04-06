@@ -3,12 +3,12 @@ import { TypeAnimation } from "react-type-animation";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa"
 
 
-const Main = () => {
+const Main = ({img}) => {
   return (
     <div id="main">
       <img
         className="w-full h-screen object-cover object-left scale-x-[1]"
-        src="../assets/bg.png"
+        src={img} 
         alt=""
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
