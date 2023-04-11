@@ -20,11 +20,12 @@ const Main = ({img}) => {
               sequence={[
                 "Developer", // Types 'One'
                 2000, // Waits 1s
-                "Coder", // Deletes 'One' and types 'Two'
-                2000, // Waits 2s
+      
                 "Tech Enthusiast",
                 2000,
-                "Media Creator",
+                "Freelanced Social Media Strategist",
+                2000,
+                "Coder", 
                 2000,
              
               ]}

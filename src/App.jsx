@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Sidenav from './components/Sidenav'
 import Main from './components/Main'
-import Work from './components/Work'
+import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import bgImg from "./assets/bg.png";
@@ -13,7 +13,9 @@ function App() {
     <div>
       <Sidenav />
       <Main img={bgImg}/>
-      <Work />
+
+      <Skills />
+
       <Projects />
       <Contact />
      
