@@ -5,6 +5,8 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import bgImg from "./assets/bg.png";
+import AboutMe from './components/AboutMe'
+import imgMe from "./assets/me.png"
 
 function App() {
   
@@ -14,9 +16,14 @@ function App() {
       <Sidenav />
       <Main img={bgImg}/>
 
-      <Skills />
+      <AboutMe img={imgMe}/>
+
+      
 
       <Projects />
+      
+      <Skills />
+
       <Contact />
      
     </div>
