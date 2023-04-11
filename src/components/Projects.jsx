@@ -1,6 +1,9 @@
 import React from 'react'
 import ProjectItem from './ProjectItem'
-import projectImg from "../assets/project.png"
+import projectImg1 from "../assets/crypto-app.png"
+import projectImg2 from "../assets/next-dash.png"
+import projectImg3 from "../assets/portfolio-react.png"
+import projectImg4 from "../assets/vite-project.png"
 
 const Projects = () => {
   return (
@@ -10,10 +13,10 @@ const Projects = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. At ut iusto libero laudantium consectetur ipsum sapiente totam, minus nihil cumque perspiciatis voluptate aliquam cum, praesentium sed quae ipsa ad non.
         </p>
         <div className='grid sm:grid-cols-2 gap-12'>
-            <ProjectItem img={projectImg} title="app"/>
-            <ProjectItem img={projectImg} title="app"/>
-            <ProjectItem img={projectImg} title="app"/>
-            <ProjectItem img={projectImg} title="app"/>
+            <ProjectItem img={projectImg1} title="crypto-app"/>
+            <ProjectItem img={projectImg2} title="next-dash"/>
+            <ProjectItem img={projectImg3} title="portfolio-react"/>
+            <ProjectItem img={projectImg4} title="vite-project"/>
 
         </div>
       
