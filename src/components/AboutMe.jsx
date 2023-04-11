@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = ({ img }) => {
   return (
-    <div id="AboutMe" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+    <div id="aboutme" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
       <h1 className="text-4xl font-bold text-center text-black mb-9">
         About Me
       </h1>

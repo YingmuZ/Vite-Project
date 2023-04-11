@@ -7,13 +7,14 @@ import Contact from './components/Contact'
 import bgImg from "./assets/bg.png";
 import AboutMe from './components/AboutMe'
 import imgMe from "./assets/me.png"
+import imgCV from "./assets/CV.png"
 
 function App() {
   
 
   return (
     <div>
-      <Sidenav />
+      <Sidenav img={imgCV} />
       <Main img={bgImg}/>
 
       <AboutMe img={imgMe}/>
