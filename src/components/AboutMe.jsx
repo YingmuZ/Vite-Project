@@ -12,8 +12,8 @@ const AboutMe = ({ img }) => {
           class="md:w-48 md:h-48  rounded-full mx-auto my-auto"
           src={img}
           alt=""
-          width=""
-          height=""
+          width="300"
+          height="300"
         />
 
         <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
