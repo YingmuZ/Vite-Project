@@ -9,17 +9,24 @@ const AboutMe = ({ img }) => {
 
       <figure class="md:flex rounded-xl p-8 md:p-0">
         <img
-          class="w-24 h-24 md:w-48 md:h-auto  rounded-full mx-auto"
+          class="md:w-48 md:h-48  rounded-full mx-auto my-auto"
           src={img}
           alt=""
-          width="384"
-          height="512"
+          width=""
+          height=""
         />
 
         <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
          
             <p class="text-lg font-medium">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ullam dignissimos nulla officiis iste deleniti pariatur fuga sed explicabo nobis? Possimus necessitatibus non officiis deleniti hic nulla quas dolorem nostrum?
+            Hi :) My name is Yingmu Zhang. 
+            </p>
+            <p>
+            I'm a motivated and passionate front-end developer at the beginning of my career.  I am constantly striving to stay up-to-date with the newest tools and frameworks in the industry, and I enjoy challenging myself to explore innovative solutions to complex problems. 
+            </p>
+            <p>
+            I care about social issues such as child sexual abuse and mental health a lot. I'm more than willing to offer what I can do technically to the related organizations.
+            Besides, I also quite enjoy yoga and horror movies.
             </p>
         
         
