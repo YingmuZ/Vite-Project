@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProjectItem = ({img, title, technologies}) => {
+const ProjectItem = ({img, title, technologies, link}) => {
   return (
     <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-black'>
         <img src={img} alt="/" className='rounded-xl group-hover:opacity-10' />
@@ -10,7 +10,7 @@ const ProjectItem = ({img, title, technologies}) => {
             </h3>
             <p className='pb-4 pt-2 text-white text-center'>{technologies}</p>
             
-            <p className='text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg'><a href='https://github.com/YingmuZ' target="__blank">More Info</a></p>
+            <p className='text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg'><a href={link} target="__blank">More Info</a></p>
             
         </div>
       

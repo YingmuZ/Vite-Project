@@ -26,7 +26,7 @@ const Contact = () => {
         <div className='max-w-[600px] m-auto  flex flex-col py-2'>
             <label className='uppercase text-sm py-2'>Message</label>
             <textarea className='border-2 rounded-lg p-3 border-gray-300' rows="10" name='message'/>
-            <button className='max-w-[600px]  bg-black hover:bg-gray-300 hover:text-black text-gray-100 mt-4 w-full p-4 rounded-lg'>
+            <button className='max-w-[600px]  bg-black hover:bg-white hover:text-black text-gray-100 mt-4 w-full p-4 rounded-lg'>
             Send Message
         </button>
         </div>
