@@ -23,7 +23,7 @@ const Main = ({img}) => {
       
                 "Tech Enthusiast",
                 2000,
-                "Freelanced Social Media Strategist",
+                "Freelanced Social Media Manager",
                 2000,
                 "Coder", 
                 2000,
