@@ -18,8 +18,9 @@ function App() {
 
       <AboutMe img={imgMe} />
 
-      <Skills />
+      
       <Projects />
+      <Skills />
       <Contact />
 
       <Footer />
