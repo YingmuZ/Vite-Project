@@ -8,13 +8,15 @@ const AboutMe = ({ img }) => {
       </h1>
 
       <figure class="md:flex rounded-xl p-8 md:p-0">
+        
         <img
-          class="md:w-48 md:h-48  rounded-full mx-auto my-auto"
+          class="md:w-48 md:h-48  rounded-full mx-auto my-auto hover:opacity-40"
           src={img}
           alt=""
-          width="300"
-          height="300"
+          width="200"
+          height="200"
         />
+       
 
         <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
          
