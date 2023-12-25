@@ -17,13 +17,10 @@ function App() {
       <Main img={bgImg} />
 
       <AboutMe img={imgMe} />
-
-      
+      <Skills img={imgMe} />
       <Projects />
-      <Skills />
-      
-      <Contact />
 
+      <Contact />
       <Footer />
     </div>
   );
