@@ -3,10 +3,9 @@
 @tailwind utilities;
 
 * {
-    scroll-behavior: smooth;
-  
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: lightgrey;
+  background-image: url("./assets/body-bg.jpg");
 }
