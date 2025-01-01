@@ -24,7 +24,7 @@ const Main = ({ img }) => {
 
                 "Tech Enthusiast",
                 2000,
-                "Freelanced Social Media Manager",
+                "Social Media Manager",
                 2000,
               ]}
               wrapper="span"
